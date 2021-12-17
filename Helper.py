@@ -42,7 +42,7 @@ class Pre_proc:
         file = nltk.word_tokenize(self.txt)
         dict_stopword={}
         stopWord=[]
-        fin=open('Properties\Stopword\stopword With verb whtout dot.txt',encoding='utf8')
+        fin=open('utils\stopword With verb whtout dot.txt',encoding='utf8')
         
         for word in fin.readlines():
             stopWord.append(word.replace('\n', '').lower().replace(' ', '').lower().replace(' ', '').upper().replace('\ufeff', '').lower().replace('\ufeff', '').upper())
@@ -70,7 +70,7 @@ class Pre_proc:
                 newFile=''
                 dict_stopword={}
                 stopWord=[]
-                fin=open('Properties\Stopword\stopword With verb whtout dot.txt',encoding='utf8')
+                fin=open('utils\stopword With verb whtout dot.txt',encoding='utf8')
                 
                 for word in fin.readlines():
                     stopWord.append(word.replace('\n', '').lower().replace(' ', '').lower().replace(' ', '').upper().replace('\ufeff', '').lower().replace('\ufeff', '').upper())
