@@ -20,5 +20,8 @@ The 10 keywords extracted by the model are:
 ('خارجه', 5.616200457615028)
 ('ترامپ', 5.829934633246103)
 
-## Note
+### Note
 In this model, lower score means higher priority.
+
+# Reference:
+[Implemented article](https://journals.ihu.ac.ir/article_204763.html)
