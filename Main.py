@@ -15,7 +15,7 @@ import Wake
 #   you most read a domain file and text file
 # =============================================================================
 news=open('Data\Sanad2030.txt' , 'r' , encoding='utf8').readlines()
-domainTxt=news[0:150]
+domainTxt=news
 txt=domainTxt[4]
 numKey=5
 word2vec_param=(5,2)
