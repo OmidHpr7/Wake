@@ -9,9 +9,6 @@
 
 
 import nltk
-from gensim.models  import word2vec
-
-
 
 class Pre_proc:
     def __init__(self,txt):
