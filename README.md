@@ -9,9 +9,16 @@ In this project, text keywords are automatically extracted based on its context.
 
 The 10 keywords extracted by the model are:
 
-<img
-src=“C:\Users\acer\Desktop\test.png”
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”
-/>
+('ایران', 4.05292034373375)
+('عربستان', 4.193905604785485)
+('کشور', 4.7680901504699245)
+('آمریکا', 4.941453550088568)
+('منطقه', 4.949306749139798)
+('ایالات', 5.365563238340798)
+('متحده', 5.444792335101005)
+('توافق', 5.479569006927752)
+('خارجه', 5.616200457615028)
+('ترامپ', 5.829934633246103)
+
+##Note
+In this model, lower score means higher priority.
